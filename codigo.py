@@ -1,4 +1,5 @@
 # Passo a passo do projeto
+
 # Passo 1: Entrar no sistema da empresa 
     # https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
@@ -66,5 +67,6 @@ for linha in tabela.index:
     pyautogui.press("tab")
     pyautogui.press("enter") # cadastra o produto (botao enviar)
     # dar scroll de tudo pra cima
-    pyautogui.scroll(5000)
+    senhapyautogui.scroll(5000)
+    
     # Passo 5: Repetir o processo de cadastro até o fim
